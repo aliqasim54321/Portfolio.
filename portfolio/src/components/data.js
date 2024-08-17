@@ -1,39 +1,40 @@
 const projectData = [
     {
         id:1,
-        projectName:"Amazon Clone",
-        demo:"https://amazoneccomerceapp.herokuapp.com/",
-        imgsrc:"./image/home.jpg"
+        projectName:"The Treausre hunt",
+        demo:"https://github.com/aliqasim54321/http-5122-frontend/tree/main/project/tresure%20hunt",
+        imgsrc:"../images/treasurehunt.jpg"
     },
     {
         id:2,
-        projectName:"Zomato Clone",
-        demo:"https://amazoneccomerceapp.herokuapp.com/",
-        imgsrc:"/zomatothumb.png"
+        projectName:"Medical Registration",
+        demo:"https://github.com/aliqasim54321/Http-5226-Backend-2/tree/main/Assignment/Assignment%20-%202/MedicalRegistration1",
+        imgsrc:"./images/medicalregistration.jpg"
     },
     {
         id:3,
-        projectName:"Redux Todo App",
-        demo:"https://react-reduxtodoapp.netlify.app/",
-        imgsrc:"/todofirstthumb.png"
+        projectName:"Tic-Tac-Toe",
+        demo:"https://github.com/aliqasim54321/Tic-Tac-Toe-Game",
+        imgsrc:"./images/tic-tac-toe.jpg"
     },
-    {
-        id:4,
-        projectName:"H & M Portfolio",
-        demo:"https://hmdeveloper1.herokuapp.com/",
-        imgsrc:"/zomatothumb.png"
-    },
+   
     {
         id:5,
-        projectName:"Ecommerce Cart With Redux",
-        demo:"https://react-redux-cart-youtube.netlify.app/",
-        imgsrc:"/redux_thumb_done.png"
+        projectName:"Travel Companion",
+        demo:"https://github.com/aliqasim54321/Travel-Companion",
+        imgsrc:"./images/travelbuddy.jpg"
     },
     {
         id:6,
-        projectName:"Crud App",
-        demo:"https://react-redux-cart-youtube.netlify.app/",
-        imgsrc:"/inonevideothumb.png"
+        projectName:"Portfolio",
+        demo:"https://github.com/aliqasim54321/Portfolio.",
+        imgsrc:"./images/portfolio.jpg"
+    },
+    {
+        id:7,
+        projectName:"Hospital Management",
+        demo:"https://github.com/aliqasim54321/Hospital-Management",
+        imgsrc:"./images/hospitalmanagement.jpg"
     },
 ]
 

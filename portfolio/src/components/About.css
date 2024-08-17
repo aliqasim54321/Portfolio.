@@ -5,6 +5,7 @@
 .main_container .right_container img{
     width: 430px;
     height: 500px;
+    margin-bottom: 30px;
 }
 @media (max-width:449px) {
     .main_container .right_container img{

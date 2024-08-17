@@ -19,15 +19,18 @@ const About = () => {
                 lineHeight: 2,
               }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-              reiciendis tenetur ex laudantium nam molestiae eius totam
-              assumenda? Ipsa distinctio eum fugit cum adipisci error? Maiores
-              dignissimos amet eaque culpa, recusandae cumque in qui praesentium
-              autem, vero fuga! Doloremque, deserunt.
+              As a Full Stack JavaScript developer with a robust background in
+              consulting, I excel in crafting web applications. My core
+              expertise lies in JavaScript, with significant professional
+              experience in React Web, React Native, and Node.js. I am also
+              skilled in leveraging Redux and Storybook to boost project
+              efficiency and maintainability. Driven by a passion for
+              innovation, I am dedicated to staying updated with the latest
+              technological advancements in the field.
             </p>
           </div>
           <div className="right_container mt-3">
-            <img src="./images/home.jpg" alt="" />
+            <img src="./images/Ali.jpg" alt="Ali Qasim" />
           </div>
         </div>
       </div>

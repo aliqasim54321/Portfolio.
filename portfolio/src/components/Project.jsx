@@ -32,7 +32,7 @@ const Project = () => {
                         <Card.Body className='d-flex justify-content-center flex-column'>
                           <Card.Title className='text-center'>{el.projectName}</Card.Title>
                           <Button variant="primary">
-                            <a href={el.demo} target="_blank" className='text-decoration-none text-light'>Live Demo</a>
+                            <a href={el.demo} target="_blank" className='text-decoration-none text-light'>Code Demo</a>
                           </Button>
                         </Card.Body>
                       </Card>

@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import "./Home.css";
+import { NavLink } from "react-router-dom";
+
 
 const Home = () => {
   return (
@@ -9,16 +11,22 @@ const Home = () => {
         <div className="home_innerdiv">
           <div className="left_div">
             <h2>
-              Welcome To <span style={{ color: "#6c63ff" }}>Ali Qasim</span>{" "}
+              Welcome To <span style={{ color: "#6c63ff" }}>Ali Qasim Portfolio</span>{" "}
             </h2>
             <p style={{ color: "#666", letterSpacing: ".5px", marginTop: 2 }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-              libero dolor veritatis nesciunt provident ipsum rerum enim rem qui
-              velit illo doloremque repellat ratione tempora, consequuntur,
-              atque fugit ullam necessitatibus
+              As a Full Stack JavaScript developer with a robust background in
+              consulting, I excel in crafting web applications. My core
+              expertise lies in JavaScript, with significant professional
+              experience in React Web, React Native, and Node.js. I am also
+              skilled in leveraging Redux and Storybook to boost project
+              efficiency and maintainability. Driven by a passion for
+              innovation, I am dedicated to staying updated with the latest
+              technological advancements in the field.
             </p>
             <div className="btn_div mt-4">
-              <Button
+            <NavLink
+                to="/project"> <Button 
+                
                 variant="danger"
                 style={{
                   letterSpacing: "1px",
@@ -30,7 +38,7 @@ const Home = () => {
               >
                 Project
               </Button>
-              
+              </NavLink>
             </div>
           </div>
           <div className="right_div">
