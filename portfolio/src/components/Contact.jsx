@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import "./contact.css"
-// import { ToastContainer, toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Contact = () => {
 
@@ -26,45 +26,46 @@ const Contact = () => {
 
   }
 
-  // const sentUserdata = async (e) => {
-  //   e.preventDefault();
+  const sentUserdata = async (e) => {
+    e.preventDefault();
 
-  //   const { fname, lname, email, mobile, message } = inputvalue;
-  //   if (fname == "") {
-  //     toast.error("fname is require")
-  //   } else if (lname == "") {
-  //     toast.error("lname is require")
-  //   } else if (email == "") {
-  //     toast.error("email is require")
-  //   } else if (!email.includes("@")) {
-  //     toast.error("invalid email")
-  //   } else if (mobile == "") {
-  //     toast.error("mobile is require")
-  //   } else {
-  //     const res = await fetch("http://localhost:6002/register", {
-  //       method: "POST",
-  //       headers: {
-  //         "Content-Type": "application/json"
-  //       },
-  //       body: JSON.stringify({
-  //         fname, lname, email, mobile, message
-  //       })
-  //     });
-  //     const data = await res.json();
+    const { fname, lname, email, mobile, message } = inputvalue;
+    if (fname == "") {
+      toast.error("fname is require")
+    } else if (lname == "") {
+      toast.error("lname is require")
+    } else if (email == "") {
+      toast.error("email is require")
+    } else if (!email.includes("@")) {
+      toast.error("invalid email")
+    } else if (mobile == "") {
+      toast.error("mobile is require")
+    } else {
+      const res = await fetch("http://localhost:6002/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          fname, lname, email, mobile, message
+        })
+      });
+      const data = await res.json();
+      console.log(data);
 
-  //     if (data.status == 201) {
-  //       toast.success("Your Response Submitted");
-  //       setInputvalue({
-  //         ...inputvalue,
-  //         fname: "",
-  //         lname: "",
-  //         email: "",
-  //         mobile: "",
-  //         message: ""
-  //       })
-  //     }
-  //   }
-  // }
+      if (data.status == 201) {
+        toast.success("Your Response Submitted");
+        setInputvalue({
+          ...inputvalue,
+          fname: "",
+          lname: "",
+          email: "",
+          mobile: "",
+          message: ""
+        })
+      }
+    }
+  }
 
   return (
     <>
@@ -93,13 +94,13 @@ const Contact = () => {
               <Form.Control as="textarea" rows={4} onChange={getvalue} value={inputvalue.message}  name="message" />
             </Form.Group>
             <div className='d-flex justify-content-center'>
-              <Button variant="primary" className='col-lg-6' type="submit" /*onClick={sentUserdata}*/>
+              <Button variant="primary" className='col-lg-6' type="submit" onClick={sentUserdata}>
                 Submit
               </Button>
             </div>
 
           </Form>
-          {/* <ToastContainer /> */}
+          { <ToastContainer /> }
         </div>
       </div>
     </>

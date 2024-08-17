@@ -17,7 +17,7 @@ const Header = () => {
         <Container>
           <div>
             <h2 className='mt-2 h2_right' style={{color:"#6c63ff"}}>
-              <Navbar.Brand href="#home">Ali Qasim</Navbar.Brand>
+              <Navbar.Brand href="#home">Ali awd Qasim</Navbar.Brand>
             </h2 >
           </div>
           <Nav className="">
