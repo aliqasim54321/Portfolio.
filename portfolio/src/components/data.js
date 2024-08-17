@@ -17,7 +17,12 @@ const projectData = [
         demo:"https://github.com/aliqasim54321/Tic-Tac-Toe-Game",
         imgsrc:"./images/tic-tac-toe.jpg"
     },
-   
+    {
+        id:4,
+        projectName:"Hospital Management",
+        demo:"https://github.com/aliqasim54321/Hospital-Management",
+        imgsrc:"./images/hospitalmanagement.jpg"
+    },
     {
         id:5,
         projectName:"Travel Companion",
@@ -29,12 +34,6 @@ const projectData = [
         projectName:"Portfolio",
         demo:"https://github.com/aliqasim54321/Portfolio.",
         imgsrc:"./images/portfolio.jpg"
-    },
-    {
-        id:7,
-        projectName:"Hospital Management",
-        demo:"https://github.com/aliqasim54321/Hospital-Management",
-        imgsrc:"./images/hospitalmanagement.jpg"
     },
 ]
 
