@@ -1,8 +1,12 @@
-# React + Vite
+.ENV file has already been pushed for the reference.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Replace the The username and the password for the database string
+DATABASE= mongodb+srv://<username>:<password>@cluster1.dvpekyp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# For sending the data into the database through Nodemailer
+ Please enter the email address of the gmail from which you will be sending the eamil in the contact form.
+ for Password you need to provide your gmail Password
+
+# EMAIL=hasdrone2@gmail.com
+# PASS=mjds pwpi jzcx ydyd
